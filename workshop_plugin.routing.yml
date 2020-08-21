@@ -1,0 +1,10 @@
+# This defines our example page's path to the routing system.
+workshop_plugin.description:
+  path: '/workshop_plugin'
+  defaults:
+    _controller: '\Drupal\workshop_plugin\Controller\PluginTypeExampleController::description'
+    _title: 'Plugin Type Example'
+  requirements:
+    _permission: 'access content'
+
+
